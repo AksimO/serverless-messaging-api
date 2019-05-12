@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "title": "Send email request validation schema",
+  "required": ["recipient", "body"],
+  "additionalProperties": false,
+  "properties": {
+    "recipient": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    }
+  }
+}
