@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "Assignment",
   "scripts": {
-    "deploy": "SLS_DEBUG=* serverless deploy",
-    "serve": "SLS_DEBUG=* serverless offline"
+    "deploy": "SLS_DEBUG=* serverless deploy"
   },
   "author": "@rumbalaidea",
   "devDependencies": {
